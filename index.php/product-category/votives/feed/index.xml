@@ -12,13 +12,13 @@
 	<atom:link href="http://localhost/myproject/wordpress-6.0.1%20(1)/wordpress/index.php/product-category/votives/feed/" rel="self" type="application/rss+xml" />
 	<link>https://maitramh20032022.github.io/mywordpress</link>
 	<description>Một trang web mới sử dụng WordPress</description>
-	<lastBuildDate>Fri, 14 Oct 2022 07:18:08 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 21 Oct 2022 00:44:27 +0000</lastBuildDate>
 	<language>vi</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.0.3</generator>
 	<item>
 		<title>Sleek Rubber Wallet</title>
 		<link>https://maitramh20032022.github.io/mywordpress/index.php/product/sleek-rubber-wallet/</link>
@@ -246,7 +246,7 @@
 		<item>
 		<title>Durable Granite Hat</title>
 		<link>https://maitramh20032022.github.io/mywordpress/index.php/product/durable-granite-hat/</link>
-					<comments>https://maitramh20032022.github.io/mywordpress/index.php/product/durable-granite-hat/#respond</comments>
+					<comments>https://maitramh20032022.github.io/mywordpress/index.php/product/durable-granite-hat/#comments</comments>
 		
 		<dc:creator><![CDATA[tranthimaitram]]></dc:creator>
 		<pubDate>Fri, 14 Oct 2022 03:48:08 +0000</pubDate>
@@ -259,7 +259,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://maitramh20032022.github.io/mywordpress/index.php/product/durable-granite-hat/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
+			<slash:comments>1</slash:comments>
 		
 		
 			</item>
