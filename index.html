@@ -172,9 +172,10 @@ img.emoji {
 :where(.wp-block-columns.is-layout-flex){gap: 2em;}
 .wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}</style>
 <style id="woocommerce-inline-inline-css">.woocommerce form .form-row .required { visibility: visible; }</style>
+<link rel="stylesheet" id="pzf-style-css" href="https://maitramh20032022.github.io/mywordpress/wp-content/plugins/button-contact-vr/css/style.css?ver=6.1" media="all">
 <link rel="preload" as="style" onload="this.rel='stylesheet';this.onload=null" id="depicter--front-common-css" href="https://maitramh20032022.github.io/mywordpress/wp-content/plugins/depicter/resources/styles/player/depicter.css?ver=1666768231" media="all">
 <link rel="stylesheet" id="depicter-25-google-font-css" href="https://fonts.googleapis.com/css?family=Quicksand%3A600%2C700%7COpen+Sans%3A600%2C700%7CAllison%3A400%7CRoboto%3A700&#038;display=swap&#038;ver=6.1" media="all">
-<link rel="stylesheet" id="depicter-25-custom-css" href="https://maitramh20032022.github.io/mywordpress/wp-content/uploads/depicter/css/25.css?ver=1667523968" media="all">
+<link rel="stylesheet" id="depicter-25-custom-css" href="https://maitramh20032022.github.io/mywordpress/wp-content/uploads/depicter/css/25.css?ver=1667542790" media="all">
 <link rel="stylesheet" id="font-awesome-css" href="https://maitramh20032022.github.io/mywordpress/wp-content/plugins/elementor/assets/lib/font-awesome/css/font-awesome.min.css?ver=4.7.0" media="all">
 <link rel="stylesheet" id="simple-line-icons-wl-css" href="https://maitramh20032022.github.io/mywordpress/wp-content/plugins/woolentor-addons/assets/css/simple-line-icons.css?ver=2.4.5" media="all">
 <link rel="stylesheet" id="htflexboxgrid-css" href="https://maitramh20032022.github.io/mywordpress/wp-content/plugins/woolentor-addons/assets/css/htflexboxgrid.css?ver=2.4.5" media="all">
@@ -1069,6 +1070,62 @@ img.emoji {
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="col-full">
 
+			<style>.float-contact {
+position: fixed;
+bottom: 40px;
+left: 20px;
+z-index: 99999;
+}
+.chat-zalo {
+background: #8eb22b;
+border-radius: 20px;
+padding: 0 18px;
+color: white;
+display: block;
+margin-bottom: 6px;
+}
+.chat-face {
+background: #125c9e;
+border-radius: 20px;
+padding: 0 18px;
+color: white;
+display: block;
+margin-bottom: 6px;
+}
+.float-contact .hotline {
+background: #d11a59!important;
+border-radius: 20px;
+padding: 0 18px;
+color: white;
+display: block;
+margin-bottom: 6px;
+}
+.chat-zalo a, .chat-face a, .hotline a {
+font-size: 15px;
+color: white;
+font-weight: 400;
+text-transform: none;
+line-height: 0;
+}
+	.float-contact .chat-zalo:hover, .float-contact .chat-face:hover, .float-contact .hotline:hover{
+box-shadow: -3px 2px 2px 1px #121111;
+}
+@media (max-width: 549px){
+.float-contact{
+/* display:none */
+}
+}</style>
+<div class="float-contact">
+<button class="chat-zalo">
+<a href="http://zalo.me/0329940038">Chat Zalo</a>
+</button>
+<button class="chat-face">
+<a href="https://www.facebook.com/tram.tranthimai.505">Chat Facebook</a>
+</button>
+<button class="hotline">
+<a href="tel:0394913521">Hotline: 032.994.0038</a>
+</button>
+</div>
 					<div class="site-info">
 			&copy; My Wordpress 2022
 							<br>
@@ -1104,7 +1161,95 @@ img.emoji {
 </div>
 <!-- #page -->
 
-<div class="woocommerce" id="htwlquick-viewmodal"><div class="htwl-modal-dialog product"><div class="htwl-modal-content">
+		<!-- if gom all in one show -->
+				<div id="button-contact-vr" class="">
+			<div id="gom-all-in-one">
+<!-- v3 -->
+				<!-- contact form -->
+								<!-- end contact form -->
+				
+				<!-- showroom -->
+								<!-- end showroom -->
+
+				<!-- contact -->
+								<!-- end contact -->
+
+				<!-- viber -->
+								<!-- end viber -->
+
+				<!-- zalo -->
+								<!-- end zalo -->
+
+				<!-- whatsapp -->
+								<!-- end whatsapp -->
+
+				<!-- Phone -->
+								<!-- end phone -->
+			</div>
+<!-- end v3 class gom-all-in-one -->
+
+			
+		</div>
+<!-- popup form -->
+<div id="popup-form-contact-vr">
+	<div class="bg-popup-vr"></div>
+	<div class="content-popup-vr" id="loco-" style=" ">
+		
+		<div class="content-popup-div-vr">
+									
+		</div>	
+
+		
+		<div class="close-popup-vr">x</div>
+	</div>
+</div>
+
+<!-- Add custom css and js -->
+	<style type="text/css"></style>
+	<!-- end Add custom css and js -->
+<!-- popup showroom -->
+<div id="popup-showroom-vr">
+	<div class="bg-popup-vr"></div>
+	<div class="content-popup-vr" id="loco-" style=" ">
+		
+		<div class="content-popup-div-vr">
+						
+		</div>	
+		<div class="close-popup-vr">x</div>
+	</div>
+</div>
+
+<script type="text/javascript">
+	jQuery(document).ready(function($){
+	    $('#all-in-one-vr').click(function(){
+		    $('#button-contact-vr').toggleClass('active');
+		})
+	    $('#contact-form-vr').click(function(){
+		    $('#popup-form-contact-vr').addClass('active');
+		})
+		$('div#popup-form-contact-vr .bg-popup-vr,div#popup-form-contact-vr .content-popup-vr .close-popup-vr').click(function(){
+			$('#popup-form-contact-vr').removeClass('active');
+		})
+	    $('#contact-showroom').click(function(){
+		    $('#popup-showroom-vr').addClass('active');
+		})
+		$('div#popup-showroom-vr .bg-popup-vr,.content-popup-vr .close-popup-vr').click(function(){
+			$('#popup-showroom-vr').removeClass('active');
+		})
+	});
+</script>
+<!-- end popup form -->
+
+			<!-- Facebook Messenger -->
+			
+		
+					
+									
+		
+		
+		
+		
+		<div class="woocommerce" id="htwlquick-viewmodal"><div class="htwl-modal-dialog product"><div class="htwl-modal-content">
 <button type="button" class="htcloseqv"><span class="sli sli-close"><span class="woolentor-placeholder-remove">X</span></span></button><div class="htwl-modal-body"></div>
 </div></div></div>
 <div class="wppopups-whole" style="display: none">
